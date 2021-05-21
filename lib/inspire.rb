@@ -20,4 +20,3 @@ class Inspire
     @val
   end
 end
-
