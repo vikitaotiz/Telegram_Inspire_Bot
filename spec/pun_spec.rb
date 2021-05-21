@@ -1,4 +1,4 @@
-require_relative '../lib/joke.rb'
+require_relative '../lib/puns.rb'
 
 describe Pun do
   describe '#make_the_request' do
