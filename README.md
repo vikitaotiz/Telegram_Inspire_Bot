@@ -1,6 +1,6 @@
 # Telegram_Inspire_Bot
 
-> Building a telegram bot that can inspire and crack jokes. It can be initialized on the command line(windows) / terminal(mac &amp; linux) where it sends inspirational messages to a specific user on his or her telegram account
+> Building a telegram bot that can inspire and crack jokes. It can be initialized on the command line(windows) / terminal where it sends inspirational messages to a specific user on his or her telegram account
 
 > This is a capstone project for the ruby curriculum.
 
