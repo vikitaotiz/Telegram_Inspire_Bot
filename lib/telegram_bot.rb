@@ -31,8 +31,7 @@ class Telebot
           value = values.request_pun
           bot.api.send_message(chat_id: message.chat.id, text: "#{value['setup']} - #{value['punchline']}", date: message.date)
         else
-          bot.api.send_message(chat_id: message.chat.id,
-                               text: "Invalid entry, #{message.from.first_name}, you need to use  /start,  /stop , /motivate or /joke")
+          bot.api.send_message(chat_id: message.chat.id, text: "Invalid entry, #{message.from.first_name}, you need to use  /start,  /stop , /inspire or /joke")
         end
       end
     end
