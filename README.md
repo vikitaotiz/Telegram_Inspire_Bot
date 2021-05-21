@@ -56,7 +56,7 @@ rspec inspire_spec.rb
 rspec spec_spec.rb
 ```
 
-## Authors ![Hireable](https://img.shields.io/badge/HIREABLE-YES-yellowgreen&?style=for-the-badge)
+## Authors
 
 👤 **Victor Otieno**
 
