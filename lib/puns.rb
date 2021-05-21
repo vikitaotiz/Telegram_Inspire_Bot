@@ -11,7 +11,7 @@ class Pun
   end
 
   def request_pun
-    uri = URI('https://api.yomomma.info')
+    uri = URI('https://official-joke-api.appspot.com/random_joke')
     data = Net::HTTP.get(uri)
     JSON.parse(data)
   end

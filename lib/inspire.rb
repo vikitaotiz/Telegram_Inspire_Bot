@@ -5,7 +5,6 @@ require_relative 'telegram_bot'
 
 class Inspire
   @val = nil
-
   def initialize
     @val = request_inspiration
   end
@@ -21,3 +20,4 @@ class Inspire
     @val
   end
 end
+
