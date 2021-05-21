@@ -1,7 +1,7 @@
 require 'telegram/bot'
 require 'net/http'
 require 'json'
-require_relative 'telegram_bot.rb'
+require_relative 'telegram_bot'
 
 class Inspire
   @val = nil
@@ -13,8 +13,7 @@ class Inspire
   def request_inspiration
     uri = URI('https://type.fit/api/quotes')
     data = Net::HTTP.get(uri)
-    response = JSON.parse(data)
-    response
+    JSON.parse(data)
   end
 
   def any_inspiration

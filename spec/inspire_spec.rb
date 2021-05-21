@@ -1,4 +1,4 @@
-require_relative '../lib/inspire.rb'
+require_relative '../lib/inspire'
 
 describe Inspire do
   describe '#make_the_request' do
@@ -14,7 +14,7 @@ describe Inspire do
     end
   end
 
-  describe '#select_random' do
+  describe '#any_inspiration' do
     let(:random) { Inspire.new }
     let(:any_inspiration) { random.any_inspiration }
 
