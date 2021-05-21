@@ -37,7 +37,7 @@
 
 - Then press the /START button and follow the steps given
 
-  ![](img/ezgif.com-crop.gif)
+  ![screenshot](https://user-images.githubusercontent.com/42869046/119151480-1bba1380-ba58-11eb-9ccf-0ecbb1d0894b.JPG)
 
 ## How to Test the Methods In the Classes
 
