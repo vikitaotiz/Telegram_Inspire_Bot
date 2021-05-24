@@ -53,8 +53,8 @@ gem install Rspec
 Navigate into the spec folder and run the following at the console:
 
 ```console
-rspec inspire_spec.rb
-rspec spec_spec.rb
+run **rspec** it will run tests for both inspire_spec.rb rspec spec_spec.rb
+
 ```
 
 ## Authors
