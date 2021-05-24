@@ -15,10 +15,11 @@
 ## How to Install
 
 - Install Ruby in your system. To install Ruby, you can read the [Documentation](https://www.ruby-lang.org/en/documentation/installation/)
-- Clone the repo using **git clone** command.
+- Clone the repo using **git clone https://github.com/vikitaotiz/Telegram_Inspire_Bot.git**
 - For Windows users, open Command Prompt and run:
   ```console
   C:\>cd Telegram_Inspire_Bot folder
+  C:\Telegram_Inspire_Bot folder run **bundle install** to install dependencies
   C:\Telegram_Inspire_Bot folder run ruby bin/main.rb
   ```
 - For Linux and Mac users, open a Terminal and run:

@@ -1,7 +1,7 @@
 require_relative '../lib/puns'
 
 describe Pun do
-  describe '#make_the_request' do
+  describe '#request_pun' do
     let(:request) { Pun.new }
     let(:request_pun) { request.request_pun }
 

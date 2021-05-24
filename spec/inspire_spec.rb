@@ -1,7 +1,7 @@
 require_relative '../lib/inspire'
 
 describe Inspire do
-  describe '#make_the_request' do
+  describe '#request_inspiration' do
     let(:request) { Inspire.new }
     let(:request_json) { request.request_inspiration }
 
