@@ -3,7 +3,11 @@ require 'net/http'
 require 'json'
 require_relative 'telegram_bot'
 
+# rubocop:disable Lint/DuplicateMethods
+
 class Pun
+  attr_reader :request_pun
+
   @val = nil
 
   def initialize
@@ -16,3 +20,5 @@ class Pun
     JSON.parse(data)
   end
 end
+
+# rubocop:enable Lint/DuplicateMethods

@@ -3,8 +3,13 @@ require 'net/http'
 require 'json'
 require_relative 'telegram_bot'
 
+# rubocop:disable Lint/DuplicateMethods
+
 class Inspire
+  attr_reader :request_inspiration, :any_inspiration
+
   @val = nil
+
   def initialize
     @val = request_inspiration
   end
@@ -20,3 +25,5 @@ class Inspire
     @val
   end
 end
+
+# rubocop:enable Lint/DuplicateMethods
